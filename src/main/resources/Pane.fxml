@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="su.aion.gd.GDController">
+   <children>
+      <Button layoutX="19.0" layoutY="29.0" mnemonicParsing="false" onAction="#myKinara" prefHeight="25.0" prefWidth="87.0" text="Моя кинара" />
+      <Button layoutX="136.0" layoutY="29.0" mnemonicParsing="false" onAction="#myDrop" text="Мой дроп" />
+      <Button layoutX="235.0" layoutY="29.0" mnemonicParsing="false" onAction="#matesDrop" text="Дроп сопартийцев" />
+      <Button layoutX="410.0" layoutY="29.0" mnemonicParsing="false" onAction="#exit" prefHeight="25.0" prefWidth="72.0" text="Выход" />
+      <TextArea fx:id="result" layoutX="19.0" layoutY="116.0" prefHeight="466.0" prefWidth="468.0" />
+      <TextField fx:id="fPath" layoutX="106.0" layoutY="72.0" prefHeight="25.0" prefWidth="376.0" />
+      <Label layoutX="26.0" layoutY="76.0" prefHeight="17.0" prefWidth="87.0" text="Путь до лога" />
+   </children>
+</AnchorPane>
